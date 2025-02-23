@@ -11,10 +11,7 @@ public class PR1QueueTest {
     PR1Queue pr1q;
 
     private void fillQueue() {
-        for (int i = 0; i < 15; i++) {
-            pr1q.add( (i*i) + (3*i)+ 2);
-
-        }
+        PR1FuncioLliurament2.fillQueue(pr1q);
     }
     @Before
     public void setUp() {

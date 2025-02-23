@@ -12,9 +12,7 @@ public class PR1StackTest {
     PR1Stack pr1q;
 
     private void fillStack() {
-        for (int i = 0; i < 15; i++) {
-            pr1q.push((i*i) + (3*i)+ 2);
-        }
+        PR1FuncioLliurament2.fillStack(pr1q);
     }
 
     @Before
